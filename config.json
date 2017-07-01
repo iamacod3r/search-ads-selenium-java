@@ -1,0 +1,117 @@
+{
+	"LastProcessInfoFilePath": "LastProcessInfo.json",
+	"LastAdsPath": "LastAds.json",
+	"SeleniumDriverPath": "/Volumes/Storage/Programmer/java/selenium/drivers/chromedriver",
+	"SeleniumDriver": "Chrome",
+	"Domains": 
+	{
+		"OfferUp": 
+		{
+			"Url": "https://offerup.com/search/?cid=20&q="
+		},
+
+		"CraigsList": 
+		{
+			"Url": "https://washingtondc.craigslist.org/search/moa?hasPic=1&min_price=100&query="
+		},
+
+		"Letgo": 
+		{
+			"ExpireAdDayCount": 7,
+			"Url": "https://us.letgo.com/en/scq/virginia/fairfax/"
+		},
+
+		"Close5": 
+		{
+			"ExpireAdDayCount": 7,
+			"Url": "https://www.close5.com/s/l/{key}/fairfax-virginia"
+		},
+
+		"FiveMiles": 
+		{
+			"ExpireAdDayCount": 7,
+			"Url": "https://www.5milesapp.com/q/{key}/?distance=5",
+			"Cookies": 
+			[
+				{
+					"Name": "5__location",
+					"Value": "%7B%22lat%22%3A38.84622359999999%2C%22lng%22%3A-77.30637330000002%2C%22locality%22%3A%22Fairfax%22%2C%22administrative_area_level_1%22%3A%22VA%22%2C%22country%22%3A%22US%22%7D",
+					"Domain": "www.5milesapp.com",
+					"Path": "/",
+					"ExpireDay": 730,
+					"IsHttpOnly": true,
+					"IsSecure": false
+				}
+			]
+		}
+	},
+
+	"Keys": 
+	[
+		{
+			"Key": "iphone 7 plus",
+			"LowestPrice": 100,
+			"Id": 
+			{
+				"OfferUp": 0,
+				"CraigsList": 0
+			}
+		},
+
+		{
+			"Key": "iphone 7",
+			"LowestPrice": 100,
+			"Id": 
+			{
+				"OfferUp": 0,
+				"CraigsList": 0
+			}
+		},
+
+		{
+			"Key": "iphone 6S plus",
+			"LowestPrice": 100,
+			"Id": 
+			{
+				"OfferUp": 0,
+				"CraigsList": 0
+			}
+		},
+
+		{
+			"Key": "samsung s8",
+			"LowestPrice": 100,
+			"Id": 
+			{
+				"OfferUp": 0,
+				"CraigsList": 0
+			}
+		}
+	],
+
+	"BlacklistWords": 
+	[
+		"sold",
+		"needed",
+		"crash",
+		"ifix",
+		"screen fix",
+		"lcd fix",
+		"buying",
+		"bad"
+	],
+
+	"IamUpTryCount": 5,
+	"MailConfig": 
+	{
+		"MailSend": true,
+		"Subject": "New Advert(s)",
+		"ToList": "",
+		"Username": "",
+		"Pswrd": "",
+		"SmtpHost": "",
+		"SmtpAuth": true,
+		"SmtpPort": "465",
+		"SmtpFactoryPort": "465"
+	}
+}
